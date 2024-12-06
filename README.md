@@ -23,8 +23,18 @@ git clone https://github.com/your-repository-name/pneumonia-detection.git
 cd pneumonia-detection
 
 ```
+## Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Install Streamlit
+```bash
+pip install streamlit tensorflow pillow numpy
+```
+
 ## Run the Application 
 ```bash
-strealit run Chest_x_ray_Dectection.py
+strea,lit run Chest_x_ray_Dectection.py
 
 ```
